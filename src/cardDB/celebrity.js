@@ -1,19 +1,18 @@
-import Alica from './assets/Alica.jpg'
-import Amber_Heard from './assets/Amber_Heard.jpg'
-import Eiza_Gonzalez from './assets/Eiza_Gonzalez.jpg'
-import Jason_Bourne from './assets/Jason_Bourne.jpg'
-import Jennifer_Lawrence from './assets/Jennifer_Lawrence.jpg'
-import Jimmy_McGill from './assets/Jimmy_McGill.jpg'
-import Lee_Jieun from './assets/Lee_Ji-eun.jpg'
-import Margot_Robbie from './assets/Margot_Robbie.jpg'
-import Olga_Kurylenko from './assets/Olga_Kurylenko.jpg'
-import Rakshitha from './assets/Rakshitha.jpg'
-import Scarlett_Johansson from './assets/Scarlett_Johansson.jpg'
-import Tom_Hardy from './assets/Tom_Hardy.jpg'
-
 import uniqid from 'uniqid'
+import Alica from '../assets/celebrity/Alica.jpg'
+import Amber_Heard from '../assets/celebrity/Amber_Heard.jpg'
+import Eiza_Gonzalez from '../assets/celebrity/Eiza_Gonzalez.jpg'
+import Jason_Bourne from '../assets/celebrity/Jason_Bourne.jpg'
+import Jennifer_Lawrence from '../assets/celebrity/Jennifer_Lawrence.jpg'
+import Jimmy_McGill from '../assets/celebrity/Jimmy_McGill.jpg'
+import Lee_Jieun from '../assets/celebrity/Lee_Ji-eun.jpg'
+import Margot_Robbie from '../assets/celebrity/Margot_Robbie.jpg'
+import Olga_Kurylenko from '../assets/celebrity/Olga_Kurylenko.jpg'
+import Rakshitha from '../assets/celebrity/Rakshitha.jpg'
+import Scarlett_Johansson from '../assets/celebrity/Scarlett_Johansson.jpg'
+import Tom_Hardy from '../assets/celebrity/Tom_Hardy.jpg'
 
-const CardDB = [
+const celebrity = [
   {
     name: 'Alica',
     src: Alica,
@@ -76,4 +75,4 @@ const CardDB = [
   }
 ]
 
-export default CardDB
+export default celebrity
