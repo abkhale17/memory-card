@@ -36,7 +36,19 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     margin: theme.spacing(1.5),
     width:"200px"
-  }
+  },
+  title: {
+    ...theme.typography.button,
+    backgroundColor: "#ff7d56",
+    padding: theme.spacing(2),
+    display:"inline-block",
+    width: '61.5%',
+    borderRadius: '5px',
+    margin: theme.spacing(1),
+    textAlign: 'center',
+    boxSizing: 'border-box',
+    fontSize: 'inherit',
+  },
 }));
 
 function App() {
@@ -90,6 +102,9 @@ function App() {
           <Box component="div" m={1} >
             <Button className={classes.buttons} variant="outlined" color="secondary" onClick={celebrityCards} >Celebrity</Button>
             <Button className={classes.buttons} variant="outlined" color="secondary" onClick={foodCards} >Food</Button>
+            <div className={`${classes.title} title`}>
+              Memory Game: Get points by clicking on an image but don't click on any more than once!
+            </div>
             <Scorecard score = {score} bestScore = {bestScore}/>
           </Box>
         </AppBar>

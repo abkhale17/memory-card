@@ -12,3 +12,12 @@ body {
   overflow: auto;
   margin:auto
 }
+
+@media all and (max-width: 1311px) {
+  .title {
+    display: block;
+    margin-left: 0;
+    width: 100%;
+
+  }
+}
