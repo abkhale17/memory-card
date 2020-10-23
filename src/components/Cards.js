@@ -1,13 +1,20 @@
 import React from 'react'
-import Card from './Card'
+import Template from './Card'
+import Grid from '@material-ui/core/Grid'
 
 const Cards = ({cards, handleImageClick}) => {
   return (
-  <div>
-    {
-      cards.map((card) => <Card key={card.id} card={card} handleImageClick={handleImageClick}/>)
-    }
-  </div>
+    <Grid 
+      container
+      direction="row"
+      spacing={0}
+      justify="flex-start"
+      alignItems="flex-start"
+    >
+      {
+        cards.map((card) => <Template key={card.id} card={card} handleImageClick={handleImageClick}/>)
+      }
+    </Grid>
   )
 }
 

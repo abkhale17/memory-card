@@ -5,7 +5,7 @@ import Coffee_Marshmallow from '../assets/food/Coffee_Marshmallow.jpg'
 import Crabs from '../assets/food/Crabs.jpg'
 import Drinks_Hamburger from '../assets/food/Drinks_Hamburger.jpg'
 import Juice from '../assets/food/Juice.jpg'
-import Macaron from '../assets/food/Macaron.jpg'
+import Strawberry from '../assets/food/Strawberry.jpg'
 import Pancake from '../assets/food/Pancake.jpg'
 import pasta from '../assets/food/pasta.jpg'
 import Pastry_Pie from '../assets/food/Pastry_Pie.jpg'
@@ -44,8 +44,8 @@ const food = [
     id: uniqid()
   },
   {
-    name:'Macaron',
-    src: Macaron,
+    name:'Strawberry',
+    src: Strawberry,
     id: uniqid()
   },
   {
