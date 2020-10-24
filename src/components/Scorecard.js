@@ -6,7 +6,10 @@ import Paper from '@material-ui/core/Paper';
 const useStyles = makeStyles((theme) => ({
   root: {
     display:"inline-block",
-    float: "right"
+    float: "right",
+    [theme.breakpoints.down('md')]: {
+      float:'none'
+    }
   },
   paper: {
     padding: theme.spacing(2),
@@ -16,7 +19,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor:"#212121",
     width:"100px",
     height: "23.65px",
-    display:"inline-block"
+    display:"inline-block",
+    [theme.breakpoints.down('sm')]: {
+      width:'126px',
+      paddingLeft: theme.spacing(1),
+      paddingRight: theme.spacing(1),
+    }
   },
 }));
 

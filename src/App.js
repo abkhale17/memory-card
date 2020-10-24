@@ -35,19 +35,29 @@ const useStyles = makeStyles((theme) => ({
   buttons : {
     padding: theme.spacing(2),
     margin: theme.spacing(1.5),
-    width:"200px"
+    width:"200px",
+    [theme.breakpoints.down('sm')]: {
+      width:'142px',
+      padding: theme.spacing(1),
+    }
   },
   title: {
     ...theme.typography.button,
     backgroundColor: "#ff7d56",
     padding: theme.spacing(2),
     display:"inline-block",
-    width: '61.5%',
+    width: '50.5%',
     borderRadius: '5px',
-    margin: theme.spacing(1),
+    margin: theme.spacing(1.5),
     textAlign: 'center',
     boxSizing: 'border-box',
     fontSize: 'inherit',
+    [theme.breakpoints.down('md')]: {
+      width:'97%'
+    },
+    [theme.breakpoints.down('xs')]: {
+      width:'90%'
+    }
   },
 }));
 
