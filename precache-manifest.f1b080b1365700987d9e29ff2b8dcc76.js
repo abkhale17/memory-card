@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e2c4d42c351f8efaef844f914bbd971",
+    "revision": "e36aa709e70e08b9f2796c1b010d38b2",
     "url": "/memory-card/index.html"
   },
   {
-    "revision": "e2619d0ca192a49ee69f",
-    "url": "/memory-card/static/css/main.609d2616.chunk.css"
+    "revision": "43f20a3aa6e41617be91",
+    "url": "/memory-card/static/css/main.d64494b6.chunk.css"
   },
   {
-    "revision": "e3dd992b9802beb2a84f",
-    "url": "/memory-card/static/js/2.480f3feb.chunk.js"
+    "revision": "bca95c46ad28a75e48f3",
+    "url": "/memory-card/static/js/2.98874a77.chunk.js"
   },
   {
     "revision": "0dc713a05373e5c9a88cb999f31ae6e4",
-    "url": "/memory-card/static/js/2.480f3feb.chunk.js.LICENSE.txt"
+    "url": "/memory-card/static/js/2.98874a77.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e2619d0ca192a49ee69f",
-    "url": "/memory-card/static/js/main.26b6664b.chunk.js"
+    "revision": "43f20a3aa6e41617be91",
+    "url": "/memory-card/static/js/main.b1facf45.chunk.js"
   },
   {
     "revision": "2d10a56d9bedc8f13787",
